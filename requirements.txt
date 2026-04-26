@@ -1,0 +1,45 @@
+# MIRAGE — Python dependencies
+# Generated from .venv on macOS (Apple Silicon / M3)
+# Install with: pip install -r requirements.txt
+#
+# Note: torch-geometric extensions (pyg-lib, torch-scatter, torch-sparse,
+# torch-cluster) must be installed separately from:
+# https://data.pyg.org/whl/torch-2.11.0+cpu.html
+
+# Deep learning
+torch==2.11.0
+torchvision==0.22.0
+
+# Graph neural networks
+torch-geometric==2.7.0
+
+# Neuroimaging
+nibabel==5.3.3
+
+# Machine learning
+scikit-learn==1.7.2
+scipy==1.15.3
+
+# Data
+numpy==2.2.6
+pandas==2.3.3
+openpyxl==3.1.5
+
+# Visualisation
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Image processing
+scikit-image==0.25.2
+
+# Utilities
+joblib==1.5.3
+psutil==7.2.1
+
+# torch-geometric dependencies
+aiohttp==3.13.5
+filelock==3.25.2
+fsspec==2026.3.0
+networkx==3.4.2
+sympy==1.14.0
+xxhash==3.6.0
